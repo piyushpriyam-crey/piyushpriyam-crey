@@ -13,7 +13,7 @@
 
 [![](https://img.shields.io/badge/Location-Halifax,_NS-2563EB?style=flat-square)](#)
 [![](https://img.shields.io/badge/Experience-7+_Years-7C3AED?style=flat-square)](#experience)
-[![](https://img.shields.io/badge/Focus-Backend_|_ML_|_RAG-059669?style=flat-square)](#featured-work)
+[![](https://img.shields.io/badge/Focus-Python_|_Backend_|_Microservices_|_ML_|_AI_|_Django-059669?style=flat-square)](#featured-work)
 
 </div>
 
@@ -32,7 +32,7 @@ My work spans:
 - **Infrastructure:** Docker, Kubernetes, CI/CD, AWS, Azure, GCP, OpenTelemetry
 - **Engineering quality:** testing, performance tuning, maintainable architecture, operational reliability
 
-> **Ask me about:** scalable backend architecture, production RAG and LLM applications, hybrid retrieval, SQL and API performance, MLOps, and open-source developer tooling.
+> **Ask me about:** Django and scalable backend architecture, REST APIs and microservices, production RAG and LLM applications, hybrid retrieval, SQL and API performance, MLOps, and open-source developer tooling.
 
 ---
 
