@@ -2,13 +2,13 @@
 
 # Piyush Priyam
 
-### Software Engineer · ML/AI Engineer · Cloud Enthusiast
+### Software Engineer · Machine Learning Engineer · Backend & AI Systems
 
-**Building technology that makes complex systems work better.**
+**Building scalable backend services, REST APIs, microservices, and production ML/RAG platforms.**
 
-I build production-grade systems that modernize government digital services, bringing together Python, Django, optimized SQL databases, and machine learning for large operational datasets.
+Halifax, Nova Scotia, Canada · 7+ Years Experience · M.Sc. Computing & Data Analytics (4.08 GPA)
 
-[About](#about) · [Tech stack](#tech-stack) · [GitHub analytics](#github-analytics) · [Connect](#connect)
+[About](#about) · [Featured Projects](#featured-projects) · [Experience](#experience) · [Tech Stack](#tech-stack) · [GitHub Analytics](#github-analytics) · [Connect](#connect)
 
 </div>
 
@@ -16,14 +16,55 @@ I build production-grade systems that modernize government digital services, bri
 
 ## About
 
-- **Working on:** Modernizing government digital services with Python and Django, SQL optimization, and machine learning.
-- **Open to collaborating on:** ML models, AI solutions, production-ready REST APIs, and scalable ETL pipelines.
-- **Currently learning:** Causal inference, NLP feature extraction, and automated cloud provisioning with AWS.
-- **Exploring:** Advanced AI implementations involving LLMs, GANs, and diffusion models.
-- **Ask me about:** Python, REST API design, SQL performance, AWS deployments, and end-to-end AI/ML.
+I'm a **Software Engineer & Machine Learning Engineer** with **7+ years of production experience** designing backend services, REST APIs, microservices, ETL pipelines, and applied AI/ML systems across government, enterprise, and consulting environments.
 
-> **A result I'm proud of**
-> Predictive maintenance models powered by IoT sensor data helped reduce equipment downtime by **30%** and deliver **$500K in annual client savings**.
+- **Currently:** Application Developer (Software Engineer) at the **Government of Nova Scotia**, leading full-lifecycle engineering and modernization for provincial digital services (**LATIS** & **RYSTA**).
+- **Backend & Systems Impact:** Engineered backend services, APIs, and SQL indexing optimizations that cut heavy query execution time by **~38%**, lowered key transaction latency by **~24%**, and reduced average API response times by **~14%**.
+- **Production ML & MLOps:** Built web-scale ML serving APIs and MLOps workflows at **TietoEVRY** (cutting model release turnaround from days to hours) and calibrated MMM, CLTV, and recommendation engines at **Lifesight**.
+- **Open Source & AI:** Building containerized RAG services, developer utilities, and reusable Python/Django packages.
+- **Ask me about:** Python, Django, FastAPI, REST APIs, Microservices, SQL Optimization, Hybrid RAG / LLMs, and MLOps.
+
+---
+
+## Featured Projects
+
+### [DocuMind — Open-Source Hybrid RAG Platform](https://github.com/piyushpriyam-crey/Documind)
+`FastAPI` · `ChromaDB` · `Sentence Transformers` · `Ollama / vLLM` · `SQLite` · `Docker` · `pytest` · `GitHub Actions`
+
+- Production-oriented Retrieval-Augmented Generation (RAG) chatbot and REST API grounding answers strictly in uploaded documents with inline source citations (filename, chunk index, similarity score).
+- Supports **15+ document formats** with magic-byte MIME sniffing, headless LibreOffice conversion, and optional Tesseract OCR.
+- Implements **hybrid retrieval** (dense embeddings + cached BM25), optional cross-encoder reranking, query rewriting, parent–child chunking, contextual summaries, and HyDE.
+- Includes token-by-token **SSE streaming**, SQLite-persisted conversation memory and background ingestion jobs, API key auth, per-IP rate limiting, per-document access tokens, liveness/readiness probes (`/api/health`, `/api/ready`), non-root Docker Compose packaging, and automated `pytest` CI.
+
+### [Simple Form Builder — Multi-Form Django Studio](https://github.com/piyushpriyam-crey/SimpleFormBuilder)
+`Python` · `Django` · `JavaScript` · `SortableJS` · `Bootstrap 5`
+
+- Full-stack Django application with a drag-and-drop visual form builder across **12 configurable field types** and per-field validation/options.
+- Renders live Bootstrap 5 previews and stores form submissions as structured JSON payloads viewable directly in Django Admin.
+- Features one-click exporters for portable **JSON schemas**, ready-to-use **Django `forms.py`** classes, and standalone **Bootstrap 5 HTML** pages.
+
+### Open-Source Packages & Libraries
+
+| Project | Stack | Highlights |
+| :--- | :--- | :--- |
+| **Django Multi-Sessions** | `Python` · `Django` · `sessionStorage` · `htmx` | Reusable Django package enabling isolated per-tab browser sessions via custom middleware, with tab-scoped messages, history handling, redirects, and `htmx` support. |
+| **EmailValidator** | `Python` · `DNS` · `dnspython` | RFC-compliant email and domain validator with live `MX`/`A`/`AAAA`/`TXT`/`NS` DNS lookups, SPF & DMARC retrieval, configurable timeouts, and automated tests. |
+| **HTML PDF Maker** | `Python` · `WeasyPrint` | Modular Python library converting HTML files, strings, fragments, and URLs into styled PDFs with CSS customization, metadata, editable PDF forms, and test coverage. |
+
+---
+
+## Experience
+
+| Role & Organization | Timeline | Selected Engineering Impact |
+| :--- | :--- | :--- |
+| **Application Developer (Software Engineer)** — Government of Nova Scotia | Nov 2023 – Present | Leading full-lifecycle backend, REST API, and microservice development for **LATIS**, **RYSTA**, and NS Services Modernization; cut SQL query times by **~38%**, transaction latency by **~24%**, and API response times by **~14%**. |
+| **AI / ML Engineer Intern (Co-op)** — Lifesight | Apr 2023 – Nov 2023 | Tuned product recommendations (**~4.5%** conversion lift), calibrated MMM & CLTV models (**~6.5%** modeled ROAS lift, **~3.5%** cohort churn reduction), and automated ML prep workflows (**~6 hrs/wk** saved). |
+| **Python Developer & Data Scientist** — Freelance / Self-Employed | May 2021 – Jun 2022 | Built IoT predictive maintenance models (**~16%** lower unplanned downtime), redesigned batch ETL pipelines (**~35%** faster), and automated recurring reporting (**~6 hrs → ~2.5 hrs**). |
+| **Software Engineer** — TietoEVRY | Jun 2018 – Apr 2021 | Engineered production Python/R backend services, APIs, and MLOps pipelines serving ML models at web scale, cutting release turnaround from **days to hours**. |
+
+**Education & Credentials:** M.Sc. in Computing and Data Analytics (Co-op), Saint Mary's University (**4.08 GPA**) · B.E. in Electronics & Telecommunications, Savitribai Phule Pune University · *Machine Learning* (Stanford University) · *Advanced Coding in AI* (University of Helsinki)
+
+---
 
 ## Tech Stack
 
