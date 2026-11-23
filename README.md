@@ -53,6 +53,14 @@ My work spans:
       <p><code>Django</code> <code>JavaScript</code> <code>Bootstrap 5</code> <code>SortableJS</code></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/piyushpriyam-crey/agentic-workflow-engine">Agentic Workflow Engine</a></h3>
+      <p><strong>Multi-agent research and execution system</strong></p>
+      <p>LangGraph-orchestrated planner, executor, and critic agents with a FastAPI API and web UI, persistent job history, live progress, retries, and local Ollama models.</p>
+      <p><code>Python</code> <code>LangGraph</code> <code>CrewAI</code> <code>FastAPI</code> <code>Ollama</code></p>
+    </td>
+  </tr>
 </table>
 
 ### Open-Source Packages
